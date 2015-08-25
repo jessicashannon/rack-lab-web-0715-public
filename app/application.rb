@@ -1,0 +1,8 @@
+
+
+class Application
+
+  def call(env)
+    [200, {"Content-Type" => "text/html"}, ["/GET/"]]
+  end
+end
